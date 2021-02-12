@@ -1,0 +1,15 @@
+<%- include('header') %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="container-site">
+    <div class="div1">
+      <a class="money"></a>
+      <h1 class="convert-title">ConvertMyMoney</h1>
+      <form method="GET" action="/cotacao">
+        <label class="label-cotacao">Cotação:</label>
+        <input class="cotacao" name='cotacao' value="<%= cotacao %>">
+        <label class="label-quantity">Quantidade de Dólares:</label>
+        <input class="quantidade" name='quantidade' placeholder="9.999,9">
+        <button class="btn-convert">Converter</button>
+      </form>
+    </div>
+    <%- include('footer') %>
