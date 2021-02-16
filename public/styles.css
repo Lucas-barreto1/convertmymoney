@@ -241,7 +241,7 @@ button.btn-back:hover{
     }
   }
 
-  @media (max-width: 767px) {
+  @media (min-width: 321px) and (max-width: 767px) {
 
     .money{
       width: 0%;
@@ -295,7 +295,7 @@ button.btn-back:hover{
   }
 
   @media (max-width:320px){
-    a.money{
+    .money{
       width: 0%;
     }
 
