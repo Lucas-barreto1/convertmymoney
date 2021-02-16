@@ -37,13 +37,10 @@ div.container-site{
 }
 
 .money{
-  position: fixed;
-  width: 15%;
-  height: 12vh;
-  left: 0%;
-
-  background: url(money.png);
-  background-repeat: no-repeat;
+  position: absolute;
+  width: 5%;
+  left: 2%;
+  top: 1%;
 }
 
 .convert-title{
@@ -205,8 +202,11 @@ button.btn-back:hover{
 @media screen and (min-width: 768px) and  (max-width:1440px) {
   .convert-title {
     font-size: 3.3em;
-    margin-left: 6%;
     top: 3%;
+  }
+
+  .money{
+    width: 0%;
   }
 
     button.btn-convert{
@@ -243,13 +243,14 @@ button.btn-back:hover{
 
   @media (min-width:330px) and (max-width: 767px) {
 
-    a.money{
+    .money{
       width: 0%;
     }
+    
 
     .convert-title{
       font-size: 2em;
-      left: 2%;
+      left: 4%;
     }
 
     .label-cotacao{
