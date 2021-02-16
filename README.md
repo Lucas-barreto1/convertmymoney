@@ -4,14 +4,14 @@ PTBR-
 
 Projeto desenvolvido com o objetivo de aprendizado em CSS.
 
-O projeto consiste em um site que faz a conversão com base na cotção atual pegada do Banco Central do Brasil.
+O projeto consiste em um site que faz a conversão com base na cotação atual pegada do Banco Central do Brasil.
 
 ENG-
 
 
-Project developed with the objective of using CSS.
+Project developed with the objective of learning in CSS.
 
-The project consists of a website that makes a conversion based on the current quote taken by the Central Bank of Brazil.
+The project consists of a website that makes the conversion based on the current quote taken by the Central Bank of Brazil
 
 
 [WebSite](https://convertmymoney-xi.vercel.app/)
