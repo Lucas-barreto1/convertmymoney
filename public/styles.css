@@ -247,6 +247,18 @@ button.btn-back:hover{
       left: 19%;
       top: 60%;
     }
+
+    p.info{
+      width: 50%;
+      margin-top: 45%;
+      margin-left: 2%;
+      font-size: 12px;
+      font-family: 'Yusei Magic';
+      font-weight: bold;
+    }
+
+
+
   }
 
   @media (min-width: 321px) and (max-width: 767px) {
@@ -300,6 +312,16 @@ button.btn-back:hover{
       top: 68%;
       font-size: 15px
     }
+
+    p.info{
+      width: 50%;
+      margin-top: 60%;
+      margin-left: 1%;
+      font-size: 10px;
+      font-family: 'Yusei Magic';
+      font-weight: bold;
+    }
+
   }
 
   @media (max-width:320px){
@@ -347,5 +369,16 @@ button.btn-back:hover{
       top: 68%;
       font-size: 15px
     }
+
+    
+    p.info{
+      width: 50%;
+      margin-top: 60%;
+      margin-left: 1%;
+      font-size: 10px;
+      font-family: 'Yusei Magic';
+      font-weight: bold;
+    }
+
   }
 
